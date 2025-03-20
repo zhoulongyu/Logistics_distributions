@@ -25,3 +25,12 @@ UAV_Federated_Distillation/
 ├── config.py                     
 ├── requirements.txt               
 └── README.md          
+
+Implementation process only for Mac/Linux:
+1. chmod +x run_local_federated.sh
+./run_local_federated.sh
+2. build the python environment
+   python -m venv venv
+source venv/bin/activate
+3. install the dependency
+   pip install -r requirements.txt
