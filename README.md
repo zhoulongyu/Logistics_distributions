@@ -48,7 +48,8 @@ roslaunch px4 mavros_posix_sitl.launch
 4. ROS to collect the UAV information
 5. Launch position control information through MAVROS
 6. Training.
-
+A simple example demo:
+https://github.com/user-attachments/assets/750b0a48-19f9-40bf-9b2a-c36c4bfdba18
 
 
 
