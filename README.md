@@ -9,3 +9,19 @@ Here are the specific running steps:
 5. Run the federated server
 
 Notes: you can use AirSim or Gazebo (Python API) to acquire UAV information, including positions, energy and environment information such as wind speed. 
+
+UAV_Federated_Distillation/
+├── airsim_data/
+│   └── airsim_data_collector.py    
+├── models/
+│   └── uav_logistics_model.py       
+├── datasets/
+│   └── simulated_dataset.py        
+├── federated/
+│   ├── client.py                    
+│   └── server.py                 
+├── utils/
+│   └── distillation_loss.py         
+├── config.py                     
+├── requirements.txt               
+└── README.md          
