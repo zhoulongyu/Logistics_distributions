@@ -8,7 +8,7 @@ Here are the specific running steps:
 4. terminal-edge UAV definitation
 5. Run the federated server
 
-Notes: you can use AirSim or Gazebo (Python API) to acquire UAV information, including positions, energy and environment information such as wind speed. 
+Notes: Our GenAI model is based on the Pytorch architecture with federated learning. you can use AirSim or Gazebo (Python API) to acquire UAV information, including positions, energy and environment information such as wind speed. 
 
 UAV_Federated_Distillation/
 ├── airsim_data/
