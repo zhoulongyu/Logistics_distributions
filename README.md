@@ -34,3 +34,22 @@ Implementation process only for Mac/Linux:
 source venv/bin/activate
 3. install the dependency
    pip install -r requirements.txt
+
+An example: Gazebo+PX4 based data collection for GenAI training:
+1. Install the Gazebo and PX4: 
+git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+cd PX4-Autopilot
+make px4_sitl gazebo
+2. Start the simulation UAV:
+   make px4_sitl gazebo
+3. Access the MaVROS:
+   sudo apt install ros-noetic-mavros ros-noetic-mavros-extras
+roslaunch px4 mavros_posix_sitl.launch
+4. ROS to collect the UAV information
+5. Launch position control information through MAVROS
+6. Training.
+
+
+
+
+
