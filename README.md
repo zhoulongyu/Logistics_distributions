@@ -1,4 +1,5 @@
-# Logistics_distributions
+# GenAI-based Logistics_distributions
+You can request full access with my permission. Here is the partial code.
 GenAI enhanced UAV distributions with considerations of energy consumption and environmental changes
 The code is based on the Flower which is suitable for imitative development with Pytorch and TensorFlow.
 Here are the specific running steps:
