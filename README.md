@@ -53,6 +53,10 @@ roslaunch px4 mavros_posix_sitl.launch
 A simple example demo:
 https://github.com/user-attachments/assets/750b0a48-19f9-40bf-9b2a-c36c4bfdba18
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 
 
