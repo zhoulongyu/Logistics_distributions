@@ -1,6 +1,9 @@
 # GenAI-based Logistics_distributions
 You can request full access under the author's permission. 
+Install requirements:
+pip install -r requirements.txt
 
+Implementation example:
 GenAI enhanced UAV distributions with considerations of energy consumption and environmental changes
 The code is based on the Flower which is suitable for imitative development with Pytorch and TensorFlow.
 Here are the specific running steps:
