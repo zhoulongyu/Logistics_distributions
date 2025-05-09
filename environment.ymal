@@ -1,0 +1,7 @@
+name: myenv
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch==2.0.1
+      - matplotlib
